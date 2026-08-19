@@ -1,0 +1,13 @@
+plate_id,medium,tryptophan_ug_ml,treatment,dilution_factor,colony_count,count_relation,note
+1,SA3,0,split Trp+ and Trp- control,1,,qualitative,Trp+ growth and no visible Trp- growth
+2,SA3,0,untreated,1,4,exact,true spontaneous revertants
+3,SA2,1,untreated,1,14,exact,apparent spontaneous background for SA2
+4,SA1,0.25,untreated,1,8,exact,apparent spontaneous background for SA1
+5,NA,,untreated,0.00001,587,approximate,above recommended countable range
+6,NA,,untreated,0.000001,276,approximate,used for CFU estimate
+7,SA2,1,1 percent MMS spot,1,46,approximate,non-uniform diffusion gradient
+8,SA2,1,2 percent MMS spot,1,73,approximate,non-uniform diffusion gradient
+9,SA2,1,water spot control,1,11,approximate,spot-test negative control
+10,SA1,0.25,1 percent MMS liquid treatment,1,9,exact,treat then plate
+11,SA2,1,UV 20 seconds,1,911,approximate,dense pinpoint colonies
+12,SA2,1,UV 40 seconds,1,1000,lower_bound,more than 1000 colonies

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 330" role="img" aria-labelledby="title desc">
+  <title id="title">Mutation signal</title>
+  <desc id="desc">Petri dishes transform from sparse controls to dense mutant colonies under UV light.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#172554"/>
+      <stop offset="0.55" stop-color="#312E81"/>
+      <stop offset="1" stop-color="#7C2D12"/>
+    </linearGradient>
+    <radialGradient id="dish"><stop offset="0" stop-color="#FEF3C7" stop-opacity="0.9"/><stop offset="1" stop-color="#FDE68A" stop-opacity="0.35"/></radialGradient>
+  </defs>
+  <rect width="1200" height="330" rx="28" fill="url(#bg)"/>
+  <g transform="translate(55 43)">
+    <circle cx="115" cy="120" r="102" fill="url(#dish)" stroke="#F8FAFC" stroke-width="5"/>
+    <circle cx="115" cy="120" r="89" fill="none" stroke="#FFFFFF" stroke-opacity="0.35" stroke-width="2"/>
+    <g fill="#92400E">
+      <circle cx="79" cy="91" r="5"/><circle cx="141" cy="150" r="4"/><circle cx="105" cy="179" r="5"/><circle cx="164" cy="85" r="4"/><circle cx="60" cy="142" r="3"/>
+    </g>
+  </g>
+  <path d="M302 163h86" stroke="#FDE68A" stroke-width="7" stroke-linecap="round"/><path d="M372 145l23 18-23 18" fill="none" stroke="#FDE68A" stroke-width="7"/>
+  <g transform="translate(400 43)">
+    <circle cx="115" cy="120" r="102" fill="url(#dish)" stroke="#F8FAFC" stroke-width="5"/>
+    <g fill="#7C2D12" opacity="0.9">
+      <circle cx="52" cy="78" r="4"/><circle cx="76" cy="102" r="4"/><circle cx="95" cy="67" r="5"/><circle cx="122" cy="92" r="4"/><circle cx="151" cy="67" r="4"/><circle cx="174" cy="100" r="5"/>
+      <circle cx="61" cy="136" r="5"/><circle cx="88" cy="157" r="4"/><circle cx="113" cy="130" r="5"/><circle cx="139" cy="157" r="4"/><circle cx="169" cy="138" r="5"/>
+      <circle cx="78" cy="184" r="4"/><circle cx="110" cy="194" r="4"/><circle cx="150" cy="186" r="5"/><circle cx="183" cy="165" r="3"/>
+    </g>
+  </g>
+  <path d="M544 23l-37 57h35l-24 55 76-78h-40l26-34z" fill="#FDE047" stroke="#FFF7ED" stroke-width="3"/>
+  <text x="690" y="120" fill="white" font-family="Segoe UI, Arial" font-size="58" font-weight="750">Mutation signal</text>
+  <text x="694" y="178" fill="#FDE68A" font-family="Segoe UI, Arial" font-size="27">MMS · UV · E. coli WP2 reversion assay</text>
+  <text x="695" y="226" fill="#C7D2FE" font-family="Segoe UI, Arial" font-size="20">DNA damage becomes a countable colony</text>
+</svg>
